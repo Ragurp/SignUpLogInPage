@@ -9,7 +9,7 @@ function formchecker() {
         value = JSON.stringify(value);
         localStorage.setItem("logerName", value);
         setTimeout(() => {
-          location.replace("../welcom.html")
+          location.replace("./welcome.html")
         }, 100);
       } else {
         document.getElementById("div").innerHTML =
